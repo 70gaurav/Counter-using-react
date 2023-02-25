@@ -1,16 +1,13 @@
-import { useState } from "react"
+import { useState } from "react";
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+export let Set =  function Counter () {
+    const [count,setcount] = useState(0)
 
-
-function Counter () {
-    const [counter,setcounter] = useState(0)
-
-    return (
+    return(
         <>
-        <button onClick = { ()=> setcounter(counter + 1)} >Increment</button>
-        <p>{counter}</p>
-        <button onClick = { ()=> setcounter(counter - 1)} >Decrement</button>
+        <button onClick = { () => setcount(count + 1)}><AddCircleOutlineIcon /></button>
+        <p>{count}</p>
+        <button  onClick = { () => setcount(count - 1)} >Decrement</button>
         </>
     )
-    
 }
-export default Counter
