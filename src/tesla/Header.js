@@ -14,7 +14,7 @@ function Header() {
   return (
     <header>
       <img src="images/logo.svg"></img>
-      <ul>
+      <ul className='Models'>
         <li><a href=''> Model S </a></li>
         <li><a href=''> Model 3 </a></li>
         <li><a href=''> Model X </a></li>
@@ -22,7 +22,7 @@ function Header() {
         <li><a href=''> Solar Roof </a></li>
         <li><a href=''> Solar Panels </a></li>
       </ul>
-      <ul>
+      <ul className='shop'>
         <li><a href=''>Shop</a></li>
         <li><a href=''>Account</a></li>
         <li><a href='' onClick={menuopen}>Menu</a>
