@@ -29,7 +29,7 @@ function Header() {
         </li>
 
       </ul>
-      <ul className='menu' style={{ right: (menu === false) ? "-260px" : "0" }}>
+      <ul className='menu' style={{ right: (menu === false) ? "-265px" : "0" }}>
         <CloseIcon className='close' onClick={close} />
         <li><a href=''> Model S </a></li>
         <li><a href=''> Model 3 </a></li>
